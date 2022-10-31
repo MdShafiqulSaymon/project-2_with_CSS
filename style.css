@@ -1,15 +1,52 @@
-
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{                /*Background Section*/
+    padding: 10px;
+    background-image: url(image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;/* adjust the image to fit */
+    background-attachment: scroll;
+}
 h1{
     background-color: rgb(0, 145, 255);
     text-align: center;
     color: aqua;
 }
+.st-div{
+    margin: 10px;
+    padding: 5px;
+}
+#se-st-div{
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
 #div-1{
     background-color: lightblue;
+    padding: 10px;
 }
 #div-2{
+    padding: 10px;
     background-color: green;
     opacity: 0.9;
+}
+#id1{
+    color: aliceblue;
+    font-size: large;
+    font-weight:bold;
+}
+ul{
+
+    color: aliceblue;
+    font-size: large;
+    font-weight:bold;
 }
 p{
     text-transform: none;
