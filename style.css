@@ -16,26 +16,52 @@ h1{
     color: aqua;
 }
 .st-div{
-    margin: 10px;
-    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border-color: red green blue yellow;
+    border-width: 20px 5px 5px 5px;
+    /* border-top-style: solid;
+    border-bottom-style: double;
+    border-right-style: dotted;
+    border-left-style: dotted; */
+    border-style: solid dotted double dotted;
 }
 #se-st-div{
-    margin: 10px;
+    margin-top: 10px;
     padding: 5px;
     color: white;
     font-size: large;
     font-weight: bold;
     word-spacing: 2px;
     letter-spacing: 1px;
+    border-style: solid;
+    border-color: rgb(0, 255, 89);
+    border-radius: 5px;
+    border-width: 20px 5px 5px 5px;
+    border-style: solid dotted double dotted;
 }
 #div-1{
+
     background-color: lightblue;
     padding: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: red green blue yellow;
+    border-radius: 5px;
+    border-width: 20px 5px 5px 5px;
+    border-style: solid dotted double dotted;
 }
 #div-2{
     padding: 10px;
+    margin-top: 10px;
     background-color: green;
     opacity: 0.9;
+    border-style: solid;
+    border-color: rgb(255, 0, 21);
+    border-radius: 5px;
+    border-width: 20px 5px 5px 5px;
+    border-style: solid dotted double dotted;
 }
 #id1{
     color: aliceblue;
